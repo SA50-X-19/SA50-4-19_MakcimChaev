@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02160b;
+}
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.wrapper {
+    background-image: url(./kuibi/Rectangle.jpg);
+    max-width: 1440px;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    height: 60px;
+}
+
+.svg {
+    background-image: url(./kuibi/path0.svg);
+    width: 68.2px;
+    height: 60px;
+}
+
+.svg__text {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    justify-content: space-between;
+}
+
+.search {
+    background-image: url(./kuibi/Vector.svg);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.search:hover {
+    transform: scale(1.2);
+}
+     
+.nav {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.nav__link:hover {
+    transform: scale(1.2);
+}
+
+.sign__in {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+
+.sign__in:hover {
+    background: #CD6326;
+    border: 2px solid #CD6326;
+}
+
+.sign__in:active {
+    background: #8F5613;
+    border: 2px solid #8F5613;
+}
+
+.sign__in__link {
+    font-family: Roboto;
+    color: #FFF;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+    margin: auto;
+}
+
+.h1 {
+    display: none;
+}
+
+
+.survival {
+    display: flex;
+    max-width: 275px;
+    width: 100%;
+    height: 340px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.survival__h1 {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #CD6326;
+}
+
+.survival__text {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFF;
+    text-align: justify;
+}
+
+.donate {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    background: #CD6326;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+
+}
+
+.donate:hover {
+    background: #E39128;
+    border: 2px solid #E39128;
+}
+
+.donate:active {
+    background: #8F5613;
+    border: 2px solid #8F5613;
+}
+
+.donate__link {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #F7F7F7;
+    margin: auto;
+}
+
+.survival__r {
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.last__articles {
+    display: flex;
+    background: #CCCCCC;
+    width: 1440px;
+    height: 1368px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1__last__articles {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.h2__last__articles {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 120px;
+}
+
+.pics__articles {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    height: 360px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    width: 1020px;
+    max-width: 100%;
+    height: 360px;
+    justify-content: space-between;
+}
+
+.deer {
+    background-image: url(./kuibi/Rectangledeer.jpg);
+}
+
+.pics > div {
+    display: flex;
+    width: 300px;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.squirrel {
+    background-image: url(./kuibi/Rectanglesquirrels.jpg);
+    display: flex;
+    width: 300px;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bird {
+    background-image: url(./kuibi/Rectanglebird.jpg);
+    display: flex;
+    width: 300px;
+    height: 360px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text__h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.text__p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.vl,.vr {
+    transition: 1s;
+}
+
+.vl:hover {
+    transform: scale(1.2);
+}
+
+.vr:hover {
+    transform: scale(1.2);
+}
+
+.last__articles__bottom {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 239px;
+    margin-bottom: 59px;
+}
+
+.email__field {
+    width: 540px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    padding-left: 15px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #CD6326;
+    background: #CD6326;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Open Sans";  
+    src: url("./kuibi/OpenSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+     
+ @font-face {
+    font-family: "Roboto";  
+    src: url("./kuibi/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+     
